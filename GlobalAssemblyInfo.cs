@@ -1,4 +1,3 @@
-using System.Runtime.CompilerServices;
 using System.Reflection;
 
 [assembly: AssemblyCompany("CMS")]
@@ -6,5 +5,5 @@ using System.Reflection;
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyVersion("13.0.13.0")]
-[assembly: AssemblyFileVersion("13.0.145.57682")]
-[assembly: AssemblyInformationalVersion("13.0.145")]
+[assembly: AssemblyFileVersion("13.0.192.46562")]
+[assembly: AssemblyInformationalVersion("13.0.192")]

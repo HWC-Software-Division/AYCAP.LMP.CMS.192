@@ -23,7 +23,7 @@ cmsdefine(["CMS/EventHub", "CMS.Builder/Constants", 'CMS.Builder/FrameLoader'], 
         frame.style.display = 'none';
         frame.onload = function () {
             // Wait for the MVC frame to complete the authentication and set the authentication response cookie
-            window.addEventListener('message', (event) => {
+            window.addEventListener('message', function onMessageCallback(event) {
                 var mvcFrameUrl = new URL(frameUrl);
                 if (event.origin !== mvcFrameUrl.origin) {
                     return;
@@ -40,8 +40,11 @@ cmsdefine(["CMS/EventHub", "CMS.Builder/Constants", 'CMS.Builder/FrameLoader'], 
                     // the admin page must publish it's loading event with administration domain.
                     var mvcAdminFrameAuthenticatedEventName = frameLoader.getMvcFrameAuthenticatedEventName(window.location.origin);
                     hub.publish(mvcAdminFrameAuthenticatedEventName);
+
+                    // Remove the handler once the admin application has been notified
+                    window.removeEventListener('message', onMessageCallback);
                 }
-            }, { once: true });
+            });
 
             var urlObj = new URL(frameUrl);
             frame.contentWindow.postMessage({ key: constants.AUTHENTICATE_MVC_FRAME_POST_MESSAGE, token: mvcSignInToken }, urlObj.origin);

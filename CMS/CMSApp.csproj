@@ -86,9 +86,6 @@
     <Reference Include="LinqToTwitter.net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=957107be965c25d9, processorArchitecture=MSIL">
       <HintPath>..\packages\linqtotwitter.4.0.0\lib\net45\LinqToTwitter.net.dll</HintPath>
     </Reference>
-    <Reference Include="MailKit, Version=3.3.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b, processorArchitecture=MSIL">
-      <HintPath>..\packages\MailKit.3.3.0\lib\net48\MailKit.dll</HintPath>
-    </Reference>
     <Reference Include="MaxMind.Db, Version=2.0.0.0, Culture=neutral, PublicKeyToken=66afa4cc5ae853ac, processorArchitecture=MSIL">
       <HintPath>..\packages\MaxMind.Db.2.6.1\lib\net45\MaxMind.Db.dll</HintPath>
     </Reference>
@@ -226,9 +223,6 @@
     <Reference Include="Microsoft.ProjectServer.Client, Version=16.1.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SharePointOnline.CSOM.16.1.20412.12000\lib\net45\Microsoft.ProjectServer.Client.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Rest.ClientRuntime, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Rest.ClientRuntime.2.3.20\lib\net461\Microsoft.Rest.ClientRuntime.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Rest.ClientRuntime.Azure, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Rest.ClientRuntime.Azure.3.3.18\lib\net452\Microsoft.Rest.ClientRuntime.Azure.dll</HintPath>
     </Reference>
@@ -282,9 +276,6 @@
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.Storage, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\WindowsAzure.Storage.7.0.0\lib\net40\Microsoft.WindowsAzure.Storage.dll</HintPath>
-    </Reference>
-    <Reference Include="MimeKit, Version=3.3.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
-      <HintPath>..\packages\MimeKit.3.3.0\lib\net48\MimeKit.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil, Version=0.10.0.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, processorArchitecture=MSIL">
       <HintPath>..\packages\Mono.Cecil.0.10.0\lib\net40\Mono.Cecil.dll</HintPath>
@@ -401,24 +392,6 @@
       <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.ServiceModel.Duplex, Version=4.10.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ServiceModel.Duplex.4.10.0\lib\net461\System.ServiceModel.Duplex.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ServiceModel.Http, Version=4.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ServiceModel.Http.4.6.0\lib\net461\System.ServiceModel.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ServiceModel.NetTcp, Version=4.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ServiceModel.NetTcp.4.6.0\lib\net461\System.ServiceModel.NetTcp.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ServiceModel.Primitives, Version=4.10.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ServiceModel.Primitives.4.10.0\lib\net461\System.ServiceModel.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ServiceModel.Security, Version=4.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ServiceModel.Security.4.6.0\lib\net461\System.ServiceModel.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ServiceModel.Syndication, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ServiceModel.Syndication.4.5.0\lib\net461\System.ServiceModel.Syndication.dll</HintPath>
-    </Reference>
     <Reference Include="System.Spatial, Version=5.8.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Spatial.5.8.4\lib\net40\System.Spatial.dll</HintPath>
     </Reference>
@@ -445,6 +418,50 @@
     </Reference>
     <Reference Include="Ude.NetStandard, Version=1.0.2.0, Culture=neutral, PublicKeyToken=103cb45fc06c90e4, processorArchitecture=MSIL">
       <HintPath>..\packages\Ude.NetStandard.1.2.0\lib\net45\Ude.NetStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Abstractions, Version=6.35.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.IdentityModel.Abstractions.6.35.0\lib\net472\Microsoft.IdentityModel.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=6.35.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.IdentityModel.Logging.6.35.0\lib\net472\Microsoft.IdentityModel.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=6.35.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.6.35.0\lib\net472\Microsoft.IdentityModel.Tokens.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens, Version=6.35.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.IdentityModel.JsonWebTokens.6.35.0\lib\net472\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Common, Version=5.11.6.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\NuGet.Common.5.11.6\lib\net472\NuGet.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Configuration, Version=5.11.6.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\NuGet.Configuration.5.11.6\lib\net472\NuGet.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Frameworks, Version=5.11.6.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\NuGet.Frameworks.5.11.6\lib\net472\NuGet.Frameworks.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Versioning, Version=5.11.6.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\NuGet.Versioning.5.11.6\lib\net472\NuGet.Versioning.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Packaging, Version=5.11.6.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\NuGet.Packaging.5.11.6\lib\net472\NuGet.Packaging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=6.35.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.6.35.0\lib\net472\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.6, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.6\lib\net461\System.Data.SqlClient.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="DotNetOpenAuth">
       <HintPath>..\Lib\DotNetOpenAuth.dll</HintPath>
@@ -851,48 +868,52 @@
       <HintPath>..\Lib\CMS.WorkflowEngine.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="Microsoft.IdentityModel.Abstractions, Version=6.35.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages\Microsoft.IdentityModel.Abstractions.6.35.0\lib\net472\Microsoft.IdentityModel.Abstractions.dll</HintPath>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.4.0\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.IdentityModel.Logging, Version=6.35.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages\Microsoft.IdentityModel.Logging.6.35.0\lib\net472\Microsoft.IdentityModel.Logging.dll</HintPath>
+    <Reference Include="MimeKit, Version=4.7.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814">
+      <HintPath>..\packages\MimeKit.4.7.1\lib\net48\MimeKit.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.IdentityModel.Tokens, Version=6.35.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.6.35.0\lib\net472\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    <Reference Include="System.Formats.Asn1, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+      <HintPath>..\packages\System.Formats.Asn1.8.0.1\lib\net462\System.Formats.Asn1.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.IdentityModel.JsonWebTokens, Version=6.35.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages\Microsoft.IdentityModel.JsonWebTokens.6.35.0\lib\net472\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+    <Reference Include="MailKit, Version=4.7.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b">
+      <HintPath>..\packages\MailKit.4.7.1.1\lib\net48\MailKit.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NuGet.Common, Version=5.11.6.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages\NuGet.Common.5.11.6\lib\net472\NuGet.Common.dll</HintPath>
+    <Reference Include="Microsoft.Rest.ClientRuntime, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.Rest.ClientRuntime.2.3.24\lib\net461\Microsoft.Rest.ClientRuntime.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NuGet.Configuration, Version=5.11.6.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages\NuGet.Configuration.5.11.6\lib\net472\NuGet.Configuration.dll</HintPath>
+    <Reference Include="System.Security.Cryptography.Pkcs, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Security.Cryptography.Pkcs.8.0.0\lib\net462\System.Security.Cryptography.Pkcs.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NuGet.Frameworks, Version=5.11.6.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages\NuGet.Frameworks.5.11.6\lib\net472\NuGet.Frameworks.dll</HintPath>
+    <Reference Include="System.ServiceModel.Duplex, Version=4.10.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.ServiceModel.Duplex.4.10.3\lib\net461\System.ServiceModel.Duplex.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NuGet.Versioning, Version=5.11.6.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages\NuGet.Versioning.5.11.6\lib\net472\NuGet.Versioning.dll</HintPath>
+    <Reference Include="System.ServiceModel.Http, Version=4.10.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.ServiceModel.Http.4.10.3\lib\net461\System.ServiceModel.Http.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NuGet.Packaging, Version=5.11.6.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages\NuGet.Packaging.5.11.6\lib\net472\NuGet.Packaging.dll</HintPath>
+    <Reference Include="System.ServiceModel.NetTcp, Version=4.10.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.ServiceModel.NetTcp.4.10.3\lib\net461\System.ServiceModel.NetTcp.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=6.35.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.6.35.0\lib\net472\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    <Reference Include="System.ServiceModel.Primitives, Version=4.10.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.ServiceModel.Primitives.4.10.3\lib\net461\System.ServiceModel.Primitives.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Data.SqlClient, Version=4.6.1.6, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <HintPath>..\packages\System.Data.SqlClient.4.8.6\lib\net461\System.Data.SqlClient.dll</HintPath>
+    <Reference Include="System.ServiceModel.Security, Version=4.10.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.ServiceModel.Security.4.10.3\lib\net461\System.ServiceModel.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Syndication, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+      <HintPath>..\packages\System.ServiceModel.Syndication.4.7.0\lib\net461\System.ServiceModel.Syndication.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
@@ -1442,8 +1463,6 @@
     <Content Include="bin\zh-TW\Microsoft.SqlServer.Dac.Extensions.resources.dll" />
     <Content Include="bin\zh-TW\Microsoft.SqlServer.Dac.resources.dll" />
     <Content Include="bin\zh-TW\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll" />
-    <Content Include="CMSAdminControls\Debug\AllLog.ascx" />
-    <Content Include="CMSAdminControls\Debug\CacheLog.ascx" />
     <Content Include="DancingGoatCore\media\CoffeeGallery\Bakery-And-Coffee.jpg" />
     <Content Include="DancingGoatCore\media\CoffeeGallery\Brew-Bar.jpg" />
     <Content Include="DancingGoatCore\media\CoffeeGallery\Cauca-Farmer.jpg" />
@@ -1472,39 +1491,6 @@
     <Content Include="DancingGoatCore\media\Graphics\Manufacturers\chemex.png" />
     <Content Include="DancingGoatCore\media\Graphics\Manufacturers\Espro.png" />
     <Content Include="DancingGoatCore\media\Graphics\Manufacturers\Hario.png" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\Bakery-And-Coffee.jpg" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\Brew-Bar.jpg" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\Cauca-Farmer.jpg" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\Coffee-Cherries.jpg" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\Coffee-Region.jpg" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\Coffee-Shop.jpg" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\Coffee-Triangle.jpg" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\Colombia-Coffee.jpg" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\Kona-Coffee.jpg" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\Robusta.jpg" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\St-Helena-Coffee.jpg" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\Thailand-Coffee.jpg" />
-    <Content Include="DancingGoatMvc\media\CoffeeGallery\Work-And-Coffee.jpg" />
-    <Content Include="DancingGoatMvc\media\EmailCampaigns\coffee-101-lesson-1.jpg" />
-    <Content Include="DancingGoatMvc\media\EmailCampaigns\coffee-101-lesson-2.jpg" />
-    <Content Include="DancingGoatMvc\media\EmailCampaigns\colombia-coffee-promotion.jpg" />
-    <Content Include="DancingGoatMvc\media\Graphics\banner-default.jpg" />
-    <Content Include="DancingGoatMvc\media\Graphics\colombia-coffee.jpg" />
-    <Content Include="DancingGoatMvc\media\Graphics\default-image-product.png" />
-    <Content Include="DancingGoatMvc\media\Graphics\hero-image.jpg" />
-    <Content Include="DancingGoatMvc\media\Graphics\Logos\logo-dancing-goat-inverted.png" />
-    <Content Include="DancingGoatMvc\media\Graphics\Manufacturers\aerobie.png" />
-    <Content Include="DancingGoatMvc\media\Graphics\Manufacturers\chemex.png" />
-    <Content Include="DancingGoatMvc\media\Graphics\Manufacturers\Espro.png" />
-    <Content Include="DancingGoatMvc\media\Graphics\Manufacturers\Hario.png" />
-    <None Include="App_Themes\Default\CMSModules\cms.messages.less" />
-    <None Include="App_Themes\Default\CMSModules\cms.emailmarketing\cms.emailmarketing.emailbuilder.emailproperties.less" />
-    <None Include="App_Themes\Default\CMSModules\cms.emailmarketing\cms.emailmarketing.emailbuilder.less" />
-    <None Include="App_Themes\Default\CMSModules\cms.emailmarketing\cms.emailmarketing.emailcontent.less" />
-    <None Include="App_Themes\Default\CMSModules\cms.emailmarketing\cms.emailmarketing.issuenew.less" />
-    <None Include="App_Themes\Default\CMSModules\cms.emailmarketing\cms.emailmarketing.newsletter.report.less" />
-    <None Include="App_Themes\Default\CMSModules\cms.membership.less" />
-    <None Include="App_Themes\Default\CMSModules\cms.objecttypegraph.less" />
     <None Include="bin\CMS.DocumentEngine.Web.UI.dll.config" />
     <Content Include="bin\CMS.DocumentWebServices.dll.config" />
     <Content Include="bin\CMS.SharePoint.dll.config" />
@@ -1706,6 +1692,258 @@
     <Content Include="MediaLibraries\LotussMoneyPlus\Product\Object\img_lmp_beyond_Z2mnHq0.webp" />
     <Content Include="MediaLibraries\LotussMoneyPlus\Product\Object\img_lmp_both1_v9BOE.webp" />
     <Content Include="MediaLibraries\LotussMoneyPlus\Product\Object\img_lmp_reward_Z1Ygf3x.webp" />
+    <Content Include="media\lmp\Coin\icon-coin-cal-01.jpg" />
+    <Content Include="media\lmp\Coin\icon-coin-cal-01.png" />
+    <Content Include="media\lmp\Coin\icon-coin-cal-02.jpg" />
+    <Content Include="media\lmp\Coin\icon-coin-cal-02.png" />
+    <Content Include="media\lmp\Coin\icon-coin-cal-03.jpg" />
+    <Content Include="media\lmp\Coin\icon-coin-cal-03.png" />
+    <Content Include="media\lmp\Coin\icon-coin-cal-04.jpg" />
+    <Content Include="media\lmp\Coin\icon-coin-cal-04.png" />
+    <Content Include="media\lmp\Coin\icon-coin-cal-09.png" />
+    <Content Include="media\lmp\Coin\icon-coin-cal-10.png" />
+    <Content Include="media\lmp\Coin\LMP_logo_16-16px-01.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-01_jpg_100_56.jpg" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-01_jpg_160_90.jpg" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-01_jpg_300_169.jpg" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-01_png_100_56.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-01_png_160_90.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-01_png_300_169.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-02_jpg_100_56.jpg" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-02_jpg_160_90.jpg" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-02_jpg_300_169.jpg" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-02_png_160_90.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-02_png_300_169.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-03_jpg_169_300.jpg" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-03_jpg_53_95.jpg" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-03_jpg_56_100.jpg" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-03_png_169_300.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-03_png_53_95.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-03_png_56_100.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-04_jpg_53_95.jpg" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-04_jpg_56_100.jpg" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-04_png_53_95.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-09_png_100_100.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-09_png_300_300.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-09_png_95_95.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-10_png_100_100.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-10_png_300_300.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-10_png_95_95.png" />
+    <Content Include="media\lmp\Coin\__thumbnails\LMP_logo_16-16px-01_png_95_95.png" />
+    <Content Include="media\lmp\Graphics\Logo\ic_lmp_fb.svg" />
+    <Content Include="media\lmp\Graphics\Logo\ic_lmp_line.svg" />
+    <Content Include="media\lmp\Graphics\Logo\ic_lmp_mail.svg" />
+    <Content Include="media\lmp\Graphics\Logo\ic_lmp_msg.svg" />
+    <Content Include="media\lmp\Graphics\Logo\ic_lmp_prine.svg" />
+    <Content Include="media\lmp\Graphics\Logo\ic_lmp_tw.svg" />
+    <Content Include="media\lmp\Insurance\car-insurance\Banner_Desktop.png" />
+    <Content Include="media\lmp\Insurance\car-insurance\Desktop_detail.png" />
+    <Content Include="media\lmp\Insurance\car-insurance\MB.png" />
+    <Content Include="media\lmp\Insurance\car-insurance\MB_detail.png" />
+    <Content Include="media\lmp\Insurance\car-insurance\__thumbnails\Banner_Desktop_png_160_54.png" />
+    <Content Include="media\lmp\Insurance\car-insurance\__thumbnails\Desktop_detail_png_160_32.png" />
+    <Content Include="media\lmp\Insurance\firework_branding_mb_1.svg" />
+    <Content Include="media\lmp\Insurance\health-icon-240-web-06.png" />
+    <Content Include="media\lmp\Insurance\health-icon-240-web-28.png" />
+    <Content Include="media\lmp\Insurance\health-icon-240-web-29.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\1.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\2.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\3.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\4.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\car-1.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\car-2.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\car-3.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\check_circle.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Ellipse-1-%281%29.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Ellipse-1.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Ellipse-2.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Frame-258.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Frame-259.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Frame-260.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Frame-261.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Frame-262.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Frame-6.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\info.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insur-star_01.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insur1plus-hover.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insur1plus.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insur2-hover.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insur2.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insur3-hover.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insur3.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insurACT-hover.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insurACT.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insurEV-hover.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insurEV.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insur_001.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insur_01-hover.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\insur_01.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Logo1-104.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Logo1.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Logo10.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Logo11.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Logo2.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Logo3.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Logo4.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Logo5.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Logo6.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Logo7.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Logo8.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Logo9.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\map_01.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\money_01.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\no.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Star-gray.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\Star.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\virayah4.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\yes.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\car-1_png_100_71.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\car-1_png_134_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\car-2_png_100_71.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\car-2_png_134_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\car-3_png_100_71.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\car-3_png_134_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Ellipse-1-%281%29_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Ellipse-1_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Ellipse-2_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Frame-6_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo1-104_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo10_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo11_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo1_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo2_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo3_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo4_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo5_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo6_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo7_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo8_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo9_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\virayah4_png_100_30.png" />
+    <Content Include="media\lmp\Insurance\insurance-protect-icon.svg" />
+    <Content Include="media\lmp\Insurance\__thumbnails\health-icon-240-web-06_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\__thumbnails\health-icon-240-web-28_png_95_95.png" />
+    <Content Include="media\lmp\Insurance\__thumbnails\health-icon-240-web-29_png_95_95.png" />
+    <Content Include="media\lmp\promotion\creditcard_bottommb_2nKWwI.jpg" />
+    <Content Include="media\lmp\promotion\creditcard_bottommb_2nKWwI_1.jpg" />
+    <Content Include="media\lmp\promotion\creditcard_bottom_Z2qgb7q.jpg" />
+    <Content Include="media\lmp\promotion\creditcard_bottom_Z2qgb7q_1.jpg" />
+    <Content Include="media\lmp\promotion\creditcard_topmb_1cSbNj.jpg" />
+    <Content Include="media\lmp\promotion\creditcard_topmb_1cSbNj_1.jpg" />
+    <Content Include="media\lmp\promotion\creditcard_top_Z2qhNcy.jpg" />
+    <Content Include="media\lmp\promotion\creditcard_top_Z2qhNcy_1.jpg" />
+    <Content Include="media\lmp\promotion\loan-card-epp_3.svg" />
+    <Content Include="media\lmp\promotion\method-bg-mb_ZNr2fV.jpg" />
+    <Content Include="media\lmp\promotion\method-bg-pc_Z1Dy4YP.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottommb_2nKWwI_1_jpg_70_95.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottommb_2nKWwI_jpg_70_95.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottommb_2nKWwI_jpg_74_100.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottom_Z2qgb7q_1_jpg_100_23.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottom_Z2qgb7q_1_jpg_160_36.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottom_Z2qgb7q_jpg_100_23.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottom_Z2qgb7q_jpg_160_36.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_topmb_1cSbNj_1_jpg_100_78.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_topmb_1cSbNj_1_jpg_122_95.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_topmb_1cSbNj_jpg_100_78.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_topmb_1cSbNj_jpg_122_95.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_top_Z2qhNcy_1_jpg_160_33.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_top_Z2qhNcy_jpg_100_21.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\creditcard_top_Z2qhNcy_jpg_160_33.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\method-bg-mb_ZNr2fV_jpg_84_95.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\method-bg-mb_ZNr2fV_jpg_89_100.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\method-bg-pc_Z1Dy4YP_jpg_100_29.jpg" />
+    <Content Include="media\lmp\promotion\__thumbnails\method-bg-pc_Z1Dy4YP_jpg_160_46.jpg" />
+    <Content Include="media\lmp\test\bg_lmp11.png" />
+    <Content Include="media\lmp\test\bg_lmp17.png" />
+    <Content Include="media\lmp\test\bg_lmp22.png" />
+    <Content Include="media\lmp\test\bg_lmp5.png" />
+    <Content Include="media\lmp\test\clock-image.png" />
+    <Content Include="media\lmp\test\popup redirect\1.png" />
+    <Content Include="media\lmp\test\popup redirect\5.png" />
+    <Content Include="media\lmp\test\popup redirect\7.png" />
+    <Content Include="media\lmp\test\popup redirect\Arrow_1.gif" />
+    <Content Include="media\lmp\test\popup redirect\bg_lmp-%2814%29.png" />
+    <Content Include="media\lmp\test\popup redirect\bg_lmp.png" />
+    <Content Include="media\lmp\test\popup redirect\bg_lmp17.png" />
+    <Content Include="media\lmp\test\popup redirect\bg_lmp5.png" />
+    <Content Include="media\lmp\test\popup redirect\clock-image.png" />
+    <Content Include="media\lmp\test\popup redirect\coin.png" />
+    <Content Include="media\lmp\test\popup redirect\fast-forward.gif" />
+    <Content Include="media\lmp\test\popup redirect\Icon-coin-cal-08.png" />
+    <Content Include="media\lmp\test\popup redirect\img-ufeatures-mobile.png" />
+    <Content Include="media\lmp\test\popup redirect\U-FEATURES-mobile.png" />
+    <Content Include="media\lmp\test\popup redirect\U-FEATURES-pc.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\1_png_200_200.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\1_png_300_300.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\1_png_95_95.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\5_png_100_100.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\5_png_200_200.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\5_png_300_300.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\5_png_95_95.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\7_png_100_100.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\7_png_200_200.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\7_png_300_300.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\7_png_95_95.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\Arrow_1_gif_100_100.gif" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\Arrow_1_gif_95_95.gif" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp-%2814%29_png_100_89.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp-%2814%29_png_107_95.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp17_png_100_75.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp17_png_126_95.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp5_png_100_18.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp5_png_160_28.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp5_png_300_53.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp_png_100_18.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp_png_160_28.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\clock-image_png_100_100.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\clock-image_png_200_200.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\clock-image_png_300_300.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\clock-image_png_95_95.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\coin_png_100_100.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\coin_png_200_200.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\coin_png_300_300.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\coin_png_95_95.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\fast-forward_gif_100_100.gif" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\fast-forward_gif_300_300.gif" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\fast-forward_gif_95_95.gif" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\Icon-coin-cal-08_png_100_87.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\Icon-coin-cal-08_png_109_95.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\Icon-coin-cal-08_png_200_174.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\img-ufeatures-mobile_png_89_95.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\img-ufeatures-mobile_png_94_100.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\U-FEATURES-mobile_png_100_13.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\U-FEATURES-mobile_png_160_20.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\U-FEATURES-mobile_png_300_38.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\U-FEATURES-pc_png_100_13.png" />
+    <Content Include="media\lmp\test\popup redirect\__thumbnails\U-FEATURES-pc_png_160_20.png" />
+    <Content Include="media\lmp\test\set3-bg-mobile.png" />
+    <Content Include="media\lmp\test\set3-bg-pc.png" />
+    <Content Include="media\lmp\test\__thumbnails\bg_lmp11_png_160_30.png" />
+    <Content Include="media\lmp\test\__thumbnails\bg_lmp17_png_100_75.png" />
+    <Content Include="media\lmp\test\__thumbnails\bg_lmp17_png_126_95.png" />
+    <Content Include="media\lmp\test\__thumbnails\bg_lmp22_png_100_71.png" />
+    <Content Include="media\lmp\test\__thumbnails\bg_lmp22_png_134_95.png" />
+    <Content Include="media\lmp\test\__thumbnails\bg_lmp22_png_200_142.png" />
+    <Content Include="media\lmp\test\__thumbnails\bg_lmp5_png_160_28.png" />
+    <Content Include="media\lmp\test\__thumbnails\bg_lmp5_png_300_53.png" />
+    <Content Include="media\lmp\test\__thumbnails\clock-image_png_100_100.png" />
+    <Content Include="media\lmp\test\__thumbnails\clock-image_png_95_95.png" />
+    <Content Include="media\lmp\test\__thumbnails\set3-bg-mobile_png_100_78.png" />
+    <Content Include="media\lmp\test\__thumbnails\set3-bg-mobile_png_122_95.png" />
+    <Content Include="media\lmp\test\__thumbnails\set3-bg-pc_png_100_23.png" />
+    <Content Include="media\lmp\test\__thumbnails\set3-bg-pc_png_160_37.png" />
+    <Content Include="media\lmp\test\__thumbnails\set3-bg-pc_png_200_47.png" />
+    <Content Include="media\lmp\uchoose\bg_lmp-%2814%29.png" />
+    <Content Include="media\lmp\uchoose\__thumbnails\bg_lmp-%2814%29_png_100_89.png" />
+    <Content Include="media\lmp\uchoose\__thumbnails\bg_lmp-%2814%29_png_107_95.png" />
+    <None Include="App_Themes\Default\CMSModules\cms.messages.less" />
+    <None Include="App_Themes\Default\CMSModules\cms.emailmarketing\cms.emailmarketing.emailbuilder.emailproperties.less" />
+    <None Include="App_Themes\Default\CMSModules\cms.emailmarketing\cms.emailmarketing.emailbuilder.less" />
+    <None Include="App_Themes\Default\CMSModules\cms.emailmarketing\cms.emailmarketing.emailcontent.less" />
+    <None Include="App_Themes\Default\CMSModules\cms.emailmarketing\cms.emailmarketing.issuenew.less" />
+    <None Include="App_Themes\Default\CMSModules\cms.emailmarketing\cms.emailmarketing.newsletter.report.less" />
+    <None Include="App_Themes\Default\CMSModules\cms.membership.less" />
+    <None Include="App_Themes\Default\CMSModules\cms.objecttypegraph.less" />
     <None Include="Old_App_WebReferences\WS\WebService.discomap" />
     <None Include="Old_App_WebReferences\WS\WebService.wsdl" />
     <Content Include="Admin\Default.aspx" />
@@ -2049,6 +2287,81 @@
     <Content Include="CMSAdminControls\CKeditor\plugins\htmlwriter\samples\outputhtml.html" />
     <Content Include="CMSAdminControls\CKeditor\plugins\icons.png" />
     <Content Include="CMSAdminControls\CKeditor\plugins\icons_hidpi.png" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\dialogs\iframe.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\icons\hidpi\iframe.png" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\icons\iframe.png" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\images\placeholder.png" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\af.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\ar.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\az.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\bg.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\bn.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\bs.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\ca.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\cs.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\cy.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\da.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\de-ch.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\de.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\el.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\en-au.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\en-ca.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\en-gb.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\en.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\eo.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\es-mx.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\es.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\et.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\eu.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\fa.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\fi.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\fo.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\fr-ca.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\fr.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\gl.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\gu.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\he.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\hi.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\hr.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\hu.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\id.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\is.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\it.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\ja.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\ka.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\km.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\ko.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\ku.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\lt.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\lv.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\mk.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\mn.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\ms.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\nb.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\nl.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\no.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\oc.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\pl.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\pt-br.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\pt.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\ro.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\ru.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\si.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\sk.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\sl.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\sq.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\sr-latn.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\sr.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\sv.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\th.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\tr.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\tt.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\ug.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\uk.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\vi.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\zh-cn.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\lang\zh.js" />
+    <Content Include="CMSAdminControls\CKeditor\plugins\iframe\plugin.js" />
     <Content Include="CMSAdminControls\CKeditor\plugins\image\dialogs\image.js" />
     <Content Include="CMSAdminControls\CKeditor\plugins\image\images\noimage.png" />
     <Content Include="CMSAdminControls\CKeditor\plugins\link\dialogs\anchor.js" />
@@ -3192,6 +3505,7 @@
     <Content Include="CMSAdminControls\ColorPicker\img\h.png" />
     <Content Include="CMSAdminControls\ColorPicker\img\sv.png" />
     <Content Include="CMSAdminControls\ContextMenus\UserContextMenu.ascx" />
+    <Content Include="CMSAdminControls\Debug\CacheLog.ascx" />
     <Content Include="CMSAdminControls\Debug\Debug.ascx" />
     <Content Include="CMSAdminControls\Debug\MacroLog.ascx" />
     <Content Include="CMSAdminControls\Debug\QueryLog.ascx" />
@@ -4034,17 +4348,17 @@
     <Content Include="CMSScripts\CMSModules\AdminControls\AnchorDropup.js" />
     <Content Include="CMSScripts\UI\UIPage.js" />
     <Content Include="CMSScripts\Underscore\underscore.min.js" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-animate.js" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-animate.min.js" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-mocks.js" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-resource.js" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-resource.min.js" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-route.js" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-route.min.js" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-sanitize.js" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-sanitize.min.js" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular.js" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular.min.js" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-animate.js" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-animate.min.js" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-mocks.js" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-resource.js" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-resource.min.js" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-route.js" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-route.min.js" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-sanitize.js" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-sanitize.min.js" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular.js" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular.min.js" />
     <Content Include="CMSScripts\Vendor\Angular\angular-ellipsis.min.js" />
     <Content Include="CMSScripts\Vendor\Angular\sortable.js" />
     <Content Include="CMSScripts\Vendor\CSV-JS\csv.js" />
@@ -4152,250 +4466,6 @@
     <Content Include="CMSWebParts\Viewers\DateTime_files\DateTime.js" />
     <Content Include="CMSWebParts\Widgets\WidgetActions.ascx" />
     <Content Include="Global.asax" />
-    <Content Include="media\lmp\Coin\icon-coin-cal-01.jpg" />
-    <Content Include="media\lmp\Coin\icon-coin-cal-01.png" />
-    <Content Include="media\lmp\Coin\icon-coin-cal-02.jpg" />
-    <Content Include="media\lmp\Coin\icon-coin-cal-02.png" />
-    <Content Include="media\lmp\Coin\icon-coin-cal-03.jpg" />
-    <Content Include="media\lmp\Coin\icon-coin-cal-03.png" />
-    <Content Include="media\lmp\Coin\icon-coin-cal-04.jpg" />
-    <Content Include="media\lmp\Coin\icon-coin-cal-04.png" />
-    <Content Include="media\lmp\Coin\icon-coin-cal-09.png" />
-    <Content Include="media\lmp\Coin\icon-coin-cal-10.png" />
-    <Content Include="media\lmp\Coin\LMP_logo_16-16px-01.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-01_jpg_100_56.jpg" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-01_jpg_160_90.jpg" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-01_jpg_300_169.jpg" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-01_png_100_56.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-01_png_160_90.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-01_png_300_169.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-02_jpg_100_56.jpg" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-02_jpg_160_90.jpg" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-02_jpg_300_169.jpg" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-02_png_160_90.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-02_png_300_169.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-03_jpg_169_300.jpg" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-03_jpg_53_95.jpg" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-03_jpg_56_100.jpg" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-03_png_169_300.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-03_png_53_95.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-03_png_56_100.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-04_jpg_53_95.jpg" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-04_jpg_56_100.jpg" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-04_png_53_95.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-09_png_100_100.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-09_png_300_300.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-09_png_95_95.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-10_png_100_100.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-10_png_300_300.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\icon-coin-cal-10_png_95_95.png" />
-    <Content Include="media\lmp\Coin\__thumbnails\LMP_logo_16-16px-01_png_95_95.png" />
-    <Content Include="media\lmp\Graphics\Logo\ic_lmp_fb.svg" />
-    <Content Include="media\lmp\Graphics\Logo\ic_lmp_line.svg" />
-    <Content Include="media\lmp\Graphics\Logo\ic_lmp_mail.svg" />
-    <Content Include="media\lmp\Graphics\Logo\ic_lmp_msg.svg" />
-    <Content Include="media\lmp\Graphics\Logo\ic_lmp_prine.svg" />
-    <Content Include="media\lmp\Graphics\Logo\ic_lmp_tw.svg" />
-    <Content Include="media\lmp\Insurance\car-insurance\Banner_Desktop.png" />
-    <Content Include="media\lmp\Insurance\car-insurance\Desktop_detail.png" />
-    <Content Include="media\lmp\Insurance\car-insurance\MB.png" />
-    <Content Include="media\lmp\Insurance\car-insurance\MB_detail.png" />
-    <Content Include="media\lmp\Insurance\car-insurance\__thumbnails\Banner_Desktop_png_160_54.png" />
-    <Content Include="media\lmp\Insurance\car-insurance\__thumbnails\Desktop_detail_png_160_32.png" />
-    <Content Include="media\lmp\Insurance\firework_branding_mb_1.svg" />
-    <Content Include="media\lmp\Insurance\health-icon-240-web-06.png" />
-    <Content Include="media\lmp\Insurance\health-icon-240-web-28.png" />
-    <Content Include="media\lmp\Insurance\health-icon-240-web-29.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\1.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\2.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\3.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\4.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\car-1.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\car-2.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\car-3.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\check_circle.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Ellipse-1-%281%29.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Ellipse-1.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Ellipse-2.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Frame-258.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Frame-259.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Frame-260.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Frame-261.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Frame-262.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Frame-6.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\info.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insur-star_01.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insur1plus-hover.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insur1plus.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insur2-hover.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insur2.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insur3-hover.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insur3.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insurACT-hover.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insurACT.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insurEV-hover.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insurEV.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insur_001.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insur_01-hover.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\insur_01.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Logo1-104.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Logo1.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Logo10.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Logo11.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Logo2.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Logo3.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Logo4.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Logo5.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Logo6.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Logo7.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Logo8.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Logo9.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\map_01.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\money_01.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\no.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Star-gray.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\Star.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\virayah4.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\yes.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\car-1_png_100_71.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\car-1_png_134_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\car-2_png_100_71.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\car-2_png_134_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\car-3_png_100_71.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\car-3_png_134_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Ellipse-1-%281%29_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Ellipse-1_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Ellipse-2_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Frame-6_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo1-104_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo10_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo11_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo1_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo2_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo3_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo4_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo5_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo6_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo7_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo8_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\Logo9_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\insurance-lotus\__thumbnails\virayah4_png_100_30.png" />
-    <Content Include="media\lmp\Insurance\insurance-protect-icon.svg" />
-    <Content Include="media\lmp\Insurance\__thumbnails\health-icon-240-web-06_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\__thumbnails\health-icon-240-web-28_png_95_95.png" />
-    <Content Include="media\lmp\Insurance\__thumbnails\health-icon-240-web-29_png_95_95.png" />
-    <Content Include="media\lmp\promotion\creditcard_bottommb_2nKWwI.jpg" />
-    <Content Include="media\lmp\promotion\creditcard_bottommb_2nKWwI_1.jpg" />
-    <Content Include="media\lmp\promotion\creditcard_bottom_Z2qgb7q.jpg" />
-    <Content Include="media\lmp\promotion\creditcard_bottom_Z2qgb7q_1.jpg" />
-    <Content Include="media\lmp\promotion\creditcard_topmb_1cSbNj.jpg" />
-    <Content Include="media\lmp\promotion\creditcard_topmb_1cSbNj_1.jpg" />
-    <Content Include="media\lmp\promotion\creditcard_top_Z2qhNcy.jpg" />
-    <Content Include="media\lmp\promotion\creditcard_top_Z2qhNcy_1.jpg" />
-    <Content Include="media\lmp\promotion\loan-card-epp_3.svg" />
-    <Content Include="media\lmp\promotion\method-bg-mb_ZNr2fV.jpg" />
-    <Content Include="media\lmp\promotion\method-bg-pc_Z1Dy4YP.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottommb_2nKWwI_1_jpg_70_95.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottommb_2nKWwI_jpg_70_95.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottommb_2nKWwI_jpg_74_100.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottom_Z2qgb7q_1_jpg_100_23.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottom_Z2qgb7q_1_jpg_160_36.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottom_Z2qgb7q_jpg_100_23.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_bottom_Z2qgb7q_jpg_160_36.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_topmb_1cSbNj_1_jpg_100_78.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_topmb_1cSbNj_1_jpg_122_95.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_topmb_1cSbNj_jpg_100_78.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_topmb_1cSbNj_jpg_122_95.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_top_Z2qhNcy_1_jpg_160_33.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_top_Z2qhNcy_jpg_100_21.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\creditcard_top_Z2qhNcy_jpg_160_33.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\method-bg-mb_ZNr2fV_jpg_84_95.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\method-bg-mb_ZNr2fV_jpg_89_100.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\method-bg-pc_Z1Dy4YP_jpg_100_29.jpg" />
-    <Content Include="media\lmp\promotion\__thumbnails\method-bg-pc_Z1Dy4YP_jpg_160_46.jpg" />
-    <Content Include="media\lmp\test\bg_lmp11.png" />
-    <Content Include="media\lmp\test\bg_lmp17.png" />
-    <Content Include="media\lmp\test\bg_lmp22.png" />
-    <Content Include="media\lmp\test\bg_lmp5.png" />
-    <Content Include="media\lmp\test\clock-image.png" />
-    <Content Include="media\lmp\test\popup redirect\1.png" />
-    <Content Include="media\lmp\test\popup redirect\5.png" />
-    <Content Include="media\lmp\test\popup redirect\7.png" />
-    <Content Include="media\lmp\test\popup redirect\Arrow_1.gif" />
-    <Content Include="media\lmp\test\popup redirect\bg_lmp-%2814%29.png" />
-    <Content Include="media\lmp\test\popup redirect\bg_lmp.png" />
-    <Content Include="media\lmp\test\popup redirect\bg_lmp17.png" />
-    <Content Include="media\lmp\test\popup redirect\bg_lmp5.png" />
-    <Content Include="media\lmp\test\popup redirect\clock-image.png" />
-    <Content Include="media\lmp\test\popup redirect\coin.png" />
-    <Content Include="media\lmp\test\popup redirect\fast-forward.gif" />
-    <Content Include="media\lmp\test\popup redirect\Icon-coin-cal-08.png" />
-    <Content Include="media\lmp\test\popup redirect\img-ufeatures-mobile.png" />
-    <Content Include="media\lmp\test\popup redirect\U-FEATURES-mobile.png" />
-    <Content Include="media\lmp\test\popup redirect\U-FEATURES-pc.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\1_png_200_200.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\1_png_300_300.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\1_png_95_95.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\5_png_100_100.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\5_png_200_200.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\5_png_300_300.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\5_png_95_95.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\7_png_100_100.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\7_png_200_200.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\7_png_300_300.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\7_png_95_95.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\Arrow_1_gif_100_100.gif" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\Arrow_1_gif_95_95.gif" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp-%2814%29_png_100_89.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp-%2814%29_png_107_95.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp17_png_100_75.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp17_png_126_95.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp5_png_100_18.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp5_png_160_28.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp5_png_300_53.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp_png_100_18.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\bg_lmp_png_160_28.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\clock-image_png_100_100.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\clock-image_png_200_200.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\clock-image_png_300_300.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\clock-image_png_95_95.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\coin_png_100_100.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\coin_png_200_200.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\coin_png_300_300.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\coin_png_95_95.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\fast-forward_gif_100_100.gif" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\fast-forward_gif_300_300.gif" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\fast-forward_gif_95_95.gif" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\Icon-coin-cal-08_png_100_87.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\Icon-coin-cal-08_png_109_95.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\Icon-coin-cal-08_png_200_174.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\img-ufeatures-mobile_png_89_95.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\img-ufeatures-mobile_png_94_100.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\U-FEATURES-mobile_png_100_13.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\U-FEATURES-mobile_png_160_20.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\U-FEATURES-mobile_png_300_38.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\U-FEATURES-pc_png_100_13.png" />
-    <Content Include="media\lmp\test\popup redirect\__thumbnails\U-FEATURES-pc_png_160_20.png" />
-    <Content Include="media\lmp\test\set3-bg-mobile.png" />
-    <Content Include="media\lmp\test\set3-bg-pc.png" />
-    <Content Include="media\lmp\test\__thumbnails\bg_lmp11_png_160_30.png" />
-    <Content Include="media\lmp\test\__thumbnails\bg_lmp17_png_100_75.png" />
-    <Content Include="media\lmp\test\__thumbnails\bg_lmp17_png_126_95.png" />
-    <Content Include="media\lmp\test\__thumbnails\bg_lmp22_png_100_71.png" />
-    <Content Include="media\lmp\test\__thumbnails\bg_lmp22_png_134_95.png" />
-    <Content Include="media\lmp\test\__thumbnails\bg_lmp22_png_200_142.png" />
-    <Content Include="media\lmp\test\__thumbnails\bg_lmp5_png_160_28.png" />
-    <Content Include="media\lmp\test\__thumbnails\bg_lmp5_png_300_53.png" />
-    <Content Include="media\lmp\test\__thumbnails\clock-image_png_100_100.png" />
-    <Content Include="media\lmp\test\__thumbnails\clock-image_png_95_95.png" />
-    <Content Include="media\lmp\test\__thumbnails\set3-bg-mobile_png_100_78.png" />
-    <Content Include="media\lmp\test\__thumbnails\set3-bg-mobile_png_122_95.png" />
-    <Content Include="media\lmp\test\__thumbnails\set3-bg-pc_png_100_23.png" />
-    <Content Include="media\lmp\test\__thumbnails\set3-bg-pc_png_160_37.png" />
-    <Content Include="media\lmp\test\__thumbnails\set3-bg-pc_png_200_47.png" />
-    <Content Include="media\lmp\uchoose\bg_lmp-%2814%29.png" />
-    <Content Include="media\lmp\uchoose\__thumbnails\bg_lmp-%2814%29_png_100_89.png" />
-    <Content Include="media\lmp\uchoose\__thumbnails\bg_lmp-%2814%29_png_107_95.png" />
     <Content Include="ObjectTranslationRESTService.svc" />
     <Content Include="DocumentRESTService.svc" />
     <Content Include="Default.aspx" />
@@ -4571,6 +4641,7 @@
     <Content Include="App_Themes\Design\Widgets.css" />
     <Content Include="CMSModules\Categories\Controls\Categories.ascx" />
     <Content Include="CMSModules\Categories\Controls\SelectCategory.ascx" />
+    <Content Include="CMSAdminControls\Debug\AllLog.ascx" />
     <Content Include="CMSAdminControls\Debug\FilesLog.ascx" />
     <Content Include="CMSAdminControls\ImageEditor\BaseImageEditor.js" />
     <Content Include="CMSAdminControls\ImageEditor\ImageEditorInnerPage.aspx" />
@@ -5010,7 +5081,6 @@
     <Content Include="CMSModules\ContactManagement\Pages\Tools\SalesForce\AuthorizationSetupHandler.ashx" />
     <Content Include="CMSMasterPages\UI\EmptyPage.master" />
     <Content Include="CMSModules\Automation\web.config" />
-    <Content Include="CMSScripts\Underscore\underscore-min.map" />
     <Content Include="CMSScripts\CMSModules\CMS.ContactManagement\ContactProfile\app.config.json" />
     <Content Include="CMSScripts\CMSModules\CMS.ContactManagement\ContactProfile\build.localization.json" />
     <Content Include="CMSScripts\CMSModules\CMS.ContactManagement\ContactProfile\app\shared\cms.application.service.js" />
@@ -5024,16 +5094,11 @@
     <Content Include="CMSPages\Web.config" />
     <Content Include="CMSScripts\CMSModules\CMS.WebAnalytics\CampaignReport\app\campaignJourney\campaignFunnelTable.component.html" />
     <Content Include="CMSMasterPages\UI\Dashboard.master" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular.min.js.map" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-resource.min.js.map" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-sanitize.min.js.map" />
     <Content Include="CMSScripts\CMSModules\CMS.WebAnalytics\CampaignReport\app\campaignTableCollapseButton.component.js" />
     <Content Include="App_Themes\Default\CMSModules\cms.personas\personas-report.less" />
     <Content Include="CMSModules\Newsletters\EmailBuilder\emailbuilder.iframe.less" />
     <Content Include="CMSScripts\CMSModules\CMS.Charts\amCharts\plugins\animate\LICENSE" />
     <Content Include="CMSScripts\CMSModules\CMS.Charts\amCharts\plugins\animate\README.md" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-animate.min.js.map" />
-    <Content Include="CMSScripts\Vendor\Angular-1.5.5\angular-route.min.js.map" />
     <Content Include="CMSScripts\CMSModules\CMS.Newsletter\emailbuilder.localization.json" />
     <Content Include="CMSScripts\CMSModules\CMS\Tabs.js" />
     <Content Include="CMSScripts\CMSModules\CMS.PageTemplates\TemplateSelector.localization.json" />
@@ -5045,6 +5110,12 @@
     <Content Include="CMSScripts\CMSModules\CMS.Builder\PageBuilder\messaging.localization.json" />
     <Content Include="CMSModules\ContactManagement\Pages\Tools\SalesForce\LeadOutboundMessageHandler.ashx" />
     <Content Include="App_Themes\Default\CMSModules\cms.system.less" />
+    <Content Include="CMSPages\Staging\SyncServer.ashx" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-animate.min.js.map" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-resource.min.js.map" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-route.min.js.map" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular-sanitize.min.js.map" />
+    <Content Include="CMSScripts\Vendor\Angular-1.8.3\angular.min.js.map" />
     <Content Include="CMSAdminControls\web.config" />
     <Content Include="Admin\web.config" />
     <Content Include="CMSFormControls\web.config" />
@@ -5116,20 +5187,7 @@
     <Content Include="CMSScripts\WebComponents\kentico-abtest-variant-listing_44.entry.js" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CMSAdminControls\Debug\AllLog.ascx.cs">
-      <DependentUpon>AllLog.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CMSAdminControls\Debug\AllLog.ascx.designer.cs">
-      <DependentUpon>AllLog.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="CMSAdminControls\Debug\CacheLog.ascx.cs">
-      <DependentUpon>CacheLog.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CMSAdminControls\Debug\CacheLog.ascx.designer.cs">
-      <DependentUpon>CacheLog.ascx</DependentUpon>
-    </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
     <Compile Include="CMSAdminControls\UI\SmartTip.ascx.cs">
       <DependentUpon>SmartTip.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -7446,6 +7504,16 @@
     </Compile>
     <Compile Include="CMSAdminControls\ContextMenus\UserContextMenu.ascx.designer.cs">
       <DependentUpon>UserContextMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CMSAdminControls\Debug\CacheLog.ascx.designer.cs">
+      <DependentUpon>CacheLog.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CMSAdminControls\Debug\AllLog.ascx.cs">
+      <DependentUpon>AllLog.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CMSAdminControls\Debug\AllLog.ascx.designer.cs">
+      <DependentUpon>AllLog.ascx</DependentUpon>
     </Compile>
     <Compile Include="CMSAdminControls\Debug\FilesLog.ascx.cs">
       <DependentUpon>FilesLog.ascx</DependentUpon>
@@ -12887,6 +12955,10 @@
       <DependentUpon>UserContextMenu.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="CMSAdminControls\Debug\CacheLog.ascx.cs">
+      <DependentUpon>CacheLog.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="CMSAdminControls\Debug\Debug.ascx.cs">
       <DependentUpon>Debug.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -15342,7 +15414,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
     <Compile Include="Old_App_Code\CMSModules\Automation\AutomationFunctions.cs" />
     <Compile Include="Old_App_Code\CMSModules\CMS\LiveTileModelProviders\SystemLiveTileModelProvider.cs" />
     <Compile Include="Old_App_Code\CMSModules\CMS\Modules\ClassesListControlExtender.cs" />
@@ -15404,8 +15475,6 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CMSModules\EmailEngine\FormControls\" />
-    <Folder Include="CMSScripts\Custom\" />
     <Folder Include="MediaLibraries\LotussMoneyPlus\Banners\Hero banners\__thumbnails\" />
     <Folder Include="MediaLibraries\LotussMoneyPlus\Banners\Video\__thumbnails\" />
     <Folder Include="MediaLibraries\LotussMoneyPlus\Banners\__thumbnails\" />
@@ -15432,6 +15501,9 @@
     <Folder Include="media\lmp\promotion\insurance\__thumbnails\" />
     <Folder Include="media\lmp\subdomain\" />
     <Folder Include="media\lmp\test\Uchoose\__thumbnails\" />
+    <Folder Include="CMSModules\EmailEngine\FormControls\" />
+    <Folder Include="CMSScripts\Custom\" />
+    <Folder Include="CMSScripts\WebComponents\" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

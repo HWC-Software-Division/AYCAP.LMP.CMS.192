@@ -15,14 +15,14 @@
             </summary>
             <param name="formItem">Form item.</param>
         </member>
-        <member name="T:CMS.OnlineForms.CurrentContactFromFormUpdater">
+        <member name="T:CMS.OnlineForms.ContactFromFormUpdater">
             <summary>
-            Encapsulates functionality that updates current contact based on form data.
+            Encapsulates functionality that updates contact based on form data.
             </summary>
         </member>
-        <member name="M:CMS.OnlineForms.CurrentContactFromFormUpdater.Update(CMS.OnlineForms.BizFormItem)">
+        <member name="M:CMS.OnlineForms.ContactFromFormUpdater.Update(CMS.OnlineForms.BizFormItem)">
             <summary>
-            Updates current contact based on the given <paramref name="formData"/>.
+            Updates contact based on the given <paramref name="formData"/>.
             </summary>
             <param name="formData">From data.</param>
         </member>
@@ -90,7 +90,7 @@
         </member>
         <member name="T:CMS.OnlineForms.FullConsentFormSubmissionActivityLoggingStrategy">
             <summary>
-            Logger that ensures form submission activity and current contact updating when tracking consent is available.
+            Logger that ensures form submission activity and contact updating when tracking consent is available.
             </summary>
         </member>
         <member name="M:CMS.OnlineForms.FullConsentFormSubmissionActivityLoggingStrategy.#ctor">
@@ -98,17 +98,20 @@
             Initializes an instance of the <see cref="T:CMS.OnlineForms.FullConsentFormSubmissionActivityLoggingStrategy"/> class.
             </summary>
         </member>
-        <member name="M:CMS.OnlineForms.FullConsentFormSubmissionActivityLoggingStrategy.#ctor(CMS.Base.Internal.IHttpContextRetriever,CMS.Base.ISiteService,CMS.Activities.IActivityLogService)">
+        <member name="M:CMS.OnlineForms.FullConsentFormSubmissionActivityLoggingStrategy.#ctor(CMS.Base.Internal.IHttpContextRetriever,CMS.Base.ISiteService,CMS.Activities.IActivityLogService,CMS.ContactManagement.ICurrentContactProvider,CMS.ContactManagement.IContactCreator,CMS.ContactManagement.IContactInfoProvider)">
             <summary>
             Initializes an instance of the <see cref="T:CMS.OnlineForms.FullConsentFormSubmissionActivityLoggingStrategy"/> class.
             </summary>
             <param name="httpContextRetriever">HTTP context retriever.</param>
             <param name="siteService">Site service.</param>
             <param name="activityLogService">Activity log service.</param>
+            <param name="currentContactProvider">Current contact provider.</param>
+            <param name="contactCreator">Contact creator.</param>
+            <param name="contactInfoProvider">Contact info provider.</param>
         </member>
         <member name="M:CMS.OnlineForms.FullConsentFormSubmissionActivityLoggingStrategy.Execute(CMS.OnlineForms.BizFormItem)">
             <summary>
-            Executest activity logging and updates current contact with data from the given <paramref name="formItem"/>.
+            Executes activity logging and updates contact with data from the given <paramref name="formItem"/>.
             </summary>
             <param name="formItem">Form item used as source of data for activity and contact.</param>
         </member>

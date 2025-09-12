@@ -3078,6 +3078,12 @@
             Helper methods for alternative URLs.
             </summary>
         </member>
+        <member name="P:CMS.DocumentEngine.Internal.AlternativeUrlHelper.AlternativeUrlCompareInfo">
+            <summary>
+            CompareInfo that should be used for string comparison of alternative URLs.
+            </summary>
+            <remarks>Should be used with following compare options - <see cref="F:System.Globalization.CompareOptions.IgnoreNonSpace"/>, <see cref="F:System.Globalization.CompareOptions.IgnoreCase"/>.</remarks>
+        </member>
         <member name="M:CMS.DocumentEngine.Internal.AlternativeUrlHelper.IsAlternativeUrlUIEnabled(CMS.DataEngine.SiteInfoIdentifier)">
             <summary>
             Indicates if the alternative URLs UI is enabled for given site.
@@ -3333,6 +3339,38 @@
             </summary>
             <param name="columnName">Column name.</param>
         </member>
+        <member name="M:CMS.DocumentEngine.Internal.AlternativeUrlHelper.UrlIsEqualToPattern(System.String,System.String)">
+            <summary>
+            Returns <c>true</c> if given <paramref name="alternativeUrl"/> and <paramref name="pattern"/> are equal.
+            </summary>
+            <remarks>Uses invariant culture string comparison with ignore case and ignore nonspacing combining characters.</remarks>
+            <param name="alternativeUrl">Alternative URL</param>
+            <param name="pattern">Pattern string for comparison</param>
+        </member>
+        <member name="M:CMS.DocumentEngine.Internal.AlternativeUrlHelper.UrlContainsPattern(System.String,System.String)">
+            <summary>
+            Returns <c>true</c> if given <paramref name="alternativeUrl"/> contains <paramref name="pattern"/> as a substring.
+            </summary>
+            <remarks>Uses invariant culture string comparison with ignore case and ignore nonspacing combining characters.</remarks>
+            <param name="alternativeUrl">Alternative URL</param>
+            <param name="pattern">Pattern string for comparison</param>
+        </member>
+        <member name="M:CMS.DocumentEngine.Internal.AlternativeUrlHelper.UrlStartsWithPattern(System.String,System.String)">
+            <summary>
+            Returns <c>true</c> if given <paramref name="alternativeUrl"/> starts with <paramref name="pattern"/>.
+            </summary>
+            <remarks>Uses invariant culture string comparison with ignore case and ignore nonspacing combining characters.</remarks>
+            <param name="alternativeUrl">Alternative URL</param>
+            <param name="pattern">Pattern string for comparison</param>
+        </member>
+        <member name="M:CMS.DocumentEngine.Internal.AlternativeUrlHelper.UrlEndsWithPattern(System.String,System.String)">
+            <summary>
+            Returns <c>true</c> if given <paramref name="alternativeUrl"/> ends with <paramref name="pattern"/>.
+            </summary>
+            <remarks>Uses invariant culture string comparison with ignore case and ignore nonspacing combining characters.</remarks>
+            <param name="alternativeUrl">Alternative URL</param>
+            <param name="pattern">Pattern string for comparison</param>
+        </member>
         <member name="T:CMS.DocumentEngine.Internal.ExcludedAlternativeUrlEvaluator">
             <summary>
             Class for evaluating excluded alternative URLs in settings.
@@ -3541,9 +3579,9 @@
             <param name="userGuid">User GUID to be stored in the preview link URL. If left empty, the user name is not stored in the generated URL.</param>
             <param name="queryString">Optional additional query string parameters.</param>
             <param name="cultureCode">Culture code for which the preview link should be generated.</param>
-            The <paramref name="cultureCode"/> can differ from the page culture in case of combine with default culture feature.
+            <paramref name="cultureCode"/> can differ from the page culture in case of combine with default culture feature.
             <remarks>
-            Preview link URL can be used by external users. This URL does not need additional authentization.
+            Preview link URL can be used by external users. This URL does not need additional authentication.
             </remarks>
         </member>
         <member name="M:CMS.DocumentEngine.Internal.PreviewLinkGenerator.DecorateUrlWithQueryStringParameters(System.String,System.Collections.Specialized.NameValueCollection)">
@@ -16490,7 +16528,7 @@
             Extracts the page URL data context from data for the router module and ensures the caching layer for the result.
             </summary>
         </member>
-        <member name="M:CMS.DocumentEngine.Routing.PageUrlDataContextExtractor.#ctor(CMS.DocumentEngine.Internal.IDefaultPreferredCultureEvaluator,CMS.Base.ISiteService,CMS.SiteProvider.ISiteInfoProvider,CMS.DocumentEngine.IBrowserPreferredCultureRetriever,CMS.Core.IAppSettingsService)">
+        <member name="M:CMS.DocumentEngine.Routing.PageUrlDataContextExtractor.#ctor(CMS.DocumentEngine.Internal.IDefaultPreferredCultureEvaluator,CMS.Base.ISiteService,CMS.SiteProvider.ISiteInfoProvider,CMS.DocumentEngine.IBrowserPreferredCultureRetriever,CMS.Core.IAppSettingsService,CMS.Localization.Internal.ICultureRetriever)">
             <summary>
             Creates an instance of <see cref="T:CMS.DocumentEngine.Routing.PageUrlDataContextExtractor"/> class.
             </summary>
@@ -16499,6 +16537,7 @@
             <param name="siteInfoProvider">Provider for <see cref="T:CMS.SiteProvider.SiteInfo"/> management.</param>
             <param name="browserPreferredCultureRetriever">Provider for the browser preferred culture.</param>
             <param name="appSettingsService">Application settings service.</param>
+            <param name="cultureRetriever">Culture retriever.</param>
         </member>
         <member name="M:CMS.DocumentEngine.Routing.PageUrlDataContextExtractor.TryExtract(System.Uri,CMS.DocumentEngine.Internal.NormalizedUrlPath,System.Boolean,CMS.DocumentEngine.Internal.PageUrlDataContext@)">
             <summary>
