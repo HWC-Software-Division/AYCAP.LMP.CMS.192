@@ -4,6 +4,8 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMSApp", "CMS\CMSApp.csproj", "{BB8817AE-48DF-4672-A1CB-CFB7441B88DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AYCAP.LMP.SchedulerTasks", "..\AYCAP.LMP\AYCAP.LMP.SchedulerTasks\AYCAP.LMP.SchedulerTasks.csproj", "{880B9397-5A59-446F-81C1-CDDF5D76F259}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,10 @@ Global
 		{BB8817AE-48DF-4672-A1CB-CFB7441B88DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB8817AE-48DF-4672-A1CB-CFB7441B88DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB8817AE-48DF-4672-A1CB-CFB7441B88DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880B9397-5A59-446F-81C1-CDDF5D76F259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880B9397-5A59-446F-81C1-CDDF5D76F259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880B9397-5A59-446F-81C1-CDDF5D76F259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880B9397-5A59-446F-81C1-CDDF5D76F259}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -928,6 +928,8 @@
     <Content Include="bin\AWSSDK.S3.dll" />
     <Content Include="bin\AWSSDK.S3.pdb" />
     <Content Include="bin\AWSSDK.S3.xml" />
+    <Content Include="bin\AYCAP.LMP.SchedulerTasks.dll" />
+    <Content Include="bin\AYCAP.LMP.SchedulerTasks.pdb" />
     <Content Include="bin\Azure.AI.TextAnalytics.dll" />
     <Content Include="bin\Azure.AI.TextAnalytics.xml" />
     <Content Include="bin\Azure.Core.dll" />
@@ -1491,6 +1493,7 @@
     <Content Include="DancingGoatCore\media\Graphics\Manufacturers\chemex.png" />
     <Content Include="DancingGoatCore\media\Graphics\Manufacturers\Espro.png" />
     <Content Include="DancingGoatCore\media\Graphics\Manufacturers\Hario.png" />
+    <Content Include="bin\AYCAP.LMP.SchedulerTasks.dll.config" />
     <None Include="bin\CMS.DocumentEngine.Web.UI.dll.config" />
     <Content Include="bin\CMS.DocumentWebServices.dll.config" />
     <Content Include="bin\CMS.SharePoint.dll.config" />
@@ -15466,6 +15469,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\AYCAP.LMP\AYCAP.LMP.SchedulerTasks\AYCAP.LMP.SchedulerTasks.csproj">
+      <Project>{880b9397-5a59-446f-81c1-cddf5d76f259}</Project>
+      <Name>AYCAP.LMP.SchedulerTasks</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\hxc.cores\HXC.SchedulerTasks\HXC.SchedulerTasks.csproj">
       <Project>{64bb2aa4-209d-4dc8-a312-8eff8f121abf}</Project>
       <Name>HXC.SchedulerTasks</Name>
@@ -15475,6 +15482,8 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="CMSModules\EmailEngine\FormControls\" />
+    <Folder Include="CMSScripts\Custom\" />
     <Folder Include="MediaLibraries\LotussMoneyPlus\Banners\Hero banners\__thumbnails\" />
     <Folder Include="MediaLibraries\LotussMoneyPlus\Banners\Video\__thumbnails\" />
     <Folder Include="MediaLibraries\LotussMoneyPlus\Banners\__thumbnails\" />
@@ -15501,9 +15510,6 @@
     <Folder Include="media\lmp\promotion\insurance\__thumbnails\" />
     <Folder Include="media\lmp\subdomain\" />
     <Folder Include="media\lmp\test\Uchoose\__thumbnails\" />
-    <Folder Include="CMSModules\EmailEngine\FormControls\" />
-    <Folder Include="CMSScripts\Custom\" />
-    <Folder Include="CMSScripts\WebComponents\" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
