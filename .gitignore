@@ -362,3 +362,7 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /CMS/media/gcs/placeholder/Tops.svg
+/CMS/CMSSiteUtils/Export
+/CMS/CMSSiteUtils/Import
+/20250912-1447-LMC-CMS192.zip
+/20251001-1240-AYCAP.LMP.CMS.192.zip
