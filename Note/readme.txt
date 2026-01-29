@@ -1,5 +1,5 @@
 ﻿1. RUN SQL 1+2
-2. ติดตั้ง folder จาก BAY.Dotcom.CMS.145 เป็น XXX.CMS.145
+2. ติดตั้ง folder จาก BAY.Dotcom.CMS.192 เป็น XXX.CMS.192
 3. copy ConnectionStrings.config จากของเดิมมาทับ
 4. แก้ไข web.config
 	- copy <appSettings> จากของเดิมมาทับ
